@@ -27,6 +27,7 @@ header.s{backdrop-filter:none;-webkit-backdrop-filter:none}
 header.s .brand,header.s .links a,header.s .langs button{text-shadow:none}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 @media(max-width:860px){#menub{display:inline-flex;align-items:center;justify-content:center}
+.brand{white-space:normal;line-height:1.05;font-size:1rem;overflow:visible}
 .links.o{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:var(--bg);color:var(--ink);padding:10px 20px 16px;gap:4px;box-shadow:0 8px 20px rgba(0,0,0,.15)}
 .links.o a{padding:12px 4px;font-size:1rem}}
 """
