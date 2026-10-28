@@ -12,7 +12,7 @@ from _rutas import ROOT,BUILD
 
 def main(argv):
     arg=lambda k:(argv[argv.index(k)+1] if k in argv else None)
-    site=Path(arg('--site') or ROOT).resolve(); out=Path(arg('--out') or tempfile.mkdtemp(prefix='solifemar-checks-')); out.mkdir(parents=True,exist_ok=True)
+    site=Path(arg('--site') or ROOT).resolve(); out=Path(arg('--out') or tempfile.mkdtemp(prefix='solifemar-checks-')).resolve(); out.mkdir(parents=True,exist_ok=True)
     if not (site/'index.html').is_file(): sys.exit(f'No hay index.html en {site}')
     class H(http.server.SimpleHTTPRequestHandler):
         def log_message(self,*a): pass
