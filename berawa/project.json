@@ -28,7 +28,7 @@
   "value": 4.2,
   "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web, direccion)",
   "url": "https://www.google.com/maps/place/Aparthotel+Solifemar/@41.265561,1.994317,17z/data=!4m9!3m8!1s0x12a49d5644fbc27d:0x42b775b8626061a!5m2!4m1!1i2!8m2!3d41.265561!4d1.994317!16s%2Fg%2F1vcvlc6j",
-  "date": "2026-10-28T11:05:19+01:00",
+  "date": "2026-10-28T23:54:31+01:00",
   "threshold": 4.0
  },
  "languages": [
@@ -52,7 +52,7 @@
  },
  "audit_original": {
   "url": "https://www.solifemar.com/",
-  "date": "2026-10-28T11:05:00+01:00",
+  "date": "2026-10-28T23:55:00+01:00",
   "veredicto": "LCP > 4 s",
   "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
  },
