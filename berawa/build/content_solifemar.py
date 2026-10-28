@@ -67,7 +67,7 @@ D=dict(name='Aparthotel Solifemar',ac='#14586e',ac2='#b5803a',ac2_a11y='#6d4a17'
  address='Passeig Marítim, 38-42 · Castelldefels (Barcelona)',phones=['936 36 08 48'],emails=['info@solifemar.com'],maps='Aparthotel Solifemar, Passeig Marítim 38-42, Castelldefels',t=T)
 META=dict(repo='demo-solifemar',name='Aparthotel Solifemar',legal_name='APARTAMENTOS SOLIFEMAR, S.L.',registry_ids=['CIF B65004483','Registro de Turismo de Catalunya HB-003372'],
  url='https://www.solifemar.com/',domain='solifemar.com',municipality='Castelldefels',province='Barcelona',sector='aparthotel (hotel + apartamentos) en primera linea de mar',
- read_at='2026-10-28T23:38:00+01:00',created_at='2026-10-28T23:36:00+01:00',built_at='2026-10-29T00:30:00+01:00',audit_date='2026-10-28T23:55:00+01:00',
+ read_at='2026-10-28T23:38:00+01:00',created_at='2026-10-28T23:36:00+01:00',built_at='2026-10-29T00:06:00+01:00',audit_date='2026-10-28T23:55:00+01:00',
  rating=dict(value=4.2,coincide=['telefono','web','direccion'],date='2026-10-28T23:54:31+01:00',url='https://www.google.com/maps/place/Aparthotel+Solifemar/@41.265561,1.994317,17z/data=!4m9!3m8!1s0x12a49d5644fbc27d:0x42b775b8626061a!5m2!4m1!1i2!8m2!3d41.265561!4d1.994317!16s%2Fg%2F1vcvlc6j'),
  book=dict(mode='mail',email='info@solifemar.com',note='La web del negocio reserva con el motor Mirai (widget sin URL propia): la demo usa solo contacto real (correo y telefono).'),
  first_of_type='primer tipo de negocio sin precedente: aparthotel urbano/costero (el modelo aprobado Cazorla Rural es alojamiento rural)')
