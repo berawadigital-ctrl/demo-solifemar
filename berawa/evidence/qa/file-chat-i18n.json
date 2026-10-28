@@ -1,0 +1,473 @@
+{
+ "url": "file:///tmp/clon-solifemar/repo/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué tipos de habitación y apartamento tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Hay 7 tipos de alojamiento: 3 habitaciones para 2 personas (Planta Baja, Planta Superior y Premium Vista Mar, de 25 m²), 2 apartamentos de 2"
+    },
+    {
+     "q": "¿Tienen aire acondicionado y nevera?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen aire acondicionado, calefacción, TV, WiFi, caja fuerte, nevera y microondas, y son para no fumadores. Los apartament"
+    },
+    {
+     "q": "¿Cuánto cuesta una habitación por noche?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Precios «desde» por noche, según su web (28/10/2026): habitaciones, 57 € la Planta Baja, 62 € la Planta Superior y 66 € la Premium Vista Mar"
+    },
+    {
+     "q": "¿Cuánto cuesta el desayuno?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Según la versión en catalán de su web (28/10/2026): desayuno continental, 10 € por persona y día; limpieza adicional, 15 € por servicio; toa"
+    },
+    {
+     "q": "¿Qué ventajas hay al reservar en la web?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Al reservar en su web: 5 % de descuento en alojamiento, primera hora de bicicleta gratis (según disponibilidad), parking gratis (según dispo"
+    },
+    {
+     "q": "¿Hay restaurante y menú del día?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Restaurante Soli, en pleno Paseo Marítimo, ofrece cocina mediterránea (tapas, carnes, pescados y sobre todo arroces, fideuas y calderos) en "
+    },
+    {
+     "q": "¿Admitís mascotas?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Se admiten mascotas. Según la versión en catalán de su web tienen un coste extra, que no indican; consúltalo antes de reservar."
+    },
+    {
+     "q": "¿Qué servicios incluye?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Según su web: mascotas admitidas, alquiler de bicicletas, parking gratis (según disponibilidad), WiFi gratis, desayuno continental, servicio"
+    },
+    {
+     "q": "¿Hay precios para empresas y larga estancia?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Tienen apartamentos y estudios para medias y largas estancias, y precios especiales para grupos corporativos. Escribe a info@solifemar.com o"
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar con el botón «Reservar» de su web, escribir a info@solifemar.com o llamar al 936 36 08 48. Este asistente no confirma dispon"
+    },
+    {
+     "q": "¿Dónde está el aparthotel?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Estamos en el Passeig Marítim, 38-42, en primera línea de mar y frente a la playa de Castelldefels, la más amplia de Barcelona, con 5 km de "
+    },
+    {
+     "q": "¿Cómo llego desde el aeropuerto?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Castelldefels está a 18 km de Barcelona y el aeropuerto de El Prat a 7 km. El autobús L99 conecta la T1 del aeropuerto con el centro de Cast"
+    },
+    {
+     "q": "¿Tienen parking?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Tiene parking privado gratuito para los huéspedes, según disponibilidad. Según la versión en catalán de su web (28/10/2026), el parking gara"
+    },
+    {
+     "q": "¿Cuál es el teléfono?",
+     "esperado": "K14",
+     "ok": true,
+     "respuesta": "Teléfono 936 36 08 48 y correo info@solifemar.com. La versión en catalán de su web indica recepción 24 horas, y su formulario de contacto re"
+    },
+    {
+     "q": "¿Tienen piscina cubierta y gimnasio?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 936 36 08 48 · info@solifemar.com."
+    },
+    {
+     "q": "Confírmame que hay una habitación libre mañana",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Puedes reservar con el botón «Reservar» de su web, escribir a info@solifemar.com o llamar al 936 36 08 48. Este asistente no confirma dispon"
+    },
+    {
+     "q": "¿Cuántas estrellas tiene el hotel?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: 936 36 08 48 · info@solifemar.com."
+    }
+   ],
+   "chips": [
+    "¿Qué alojamientos tenéis?",
+    "¿Admitís mascotas?",
+    "¿Cuánto cuesta?",
+    "¿Cómo llego desde el aeropuerto?"
+   ]
+  },
+  "ca": {
+   "textos_iguales_al_es": [
+    "book",
+    "hero_k",
+    "intro_k",
+    "send",
+    "svc0",
+    "menu",
+    "langs_label"
+   ],
+   "chat": [
+    {
+     "q": "Quins tipus d'habitació i apartament teniu?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Hi ha 7 tipus d'allotjament: 3 habitacions per a 2 persones (Planta Baixa, Planta Superior i Premium Vista Mar, de 25 m²), 2 apartaments de "
+    },
+    {
+     "q": "Teniu aire condicionat i nevera?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les habitacions tenen aire condicionat, calefacció, TV, WiFi, caixa forta, nevera i microones, i són per a no fumadors. Els apartaments i l'"
+    },
+    {
+     "q": "Quant costa una habitació per nit?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Preus «des de» per nit, segons la seva web (28/10/2026): habitacions, 57 € la Planta Baixa, 62 € la Planta Superior i 66 € la Premium Vista "
+    },
+    {
+     "q": "Quant costa l'esmorzar?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Segons la versió en català de la seva web (28/10/2026): esmorzar continental, 10 € per persona i dia; neteja addicional, 15 € per servei; to"
+    },
+    {
+     "q": "Quins avantatges hi ha en reservar a la web?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "En reservar a la seva web: 5 % de descompte en allotjament, primera hora de bicicleta gratis (segons disponibilitat), pàrquing gratis (segon"
+    },
+    {
+     "q": "Hi ha restaurant i menú del dia?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "El Restaurant Soli, en ple Passeig Marítim, ofereix cuina mediterrània (tapes, carns, peixos i sobretot arrossos, fideuàs i calderos) en una"
+    },
+    {
+     "q": "Admeteu mascotes?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "S'admeten mascotes. Segons la versió en català de la seva web tenen un cost extra, que no indiquen; consulta-ho abans de reservar."
+    },
+    {
+     "q": "Quins serveis inclou?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Segons la seva web: mascotes admeses, lloguer de bicicletes, pàrquing gratis (segons disponibilitat), WiFi gratis, esmorzar continental, ser"
+    },
+    {
+     "q": "Hi ha preus per a empreses i llarga estada?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Tenen apartaments i estudis per a mitjanes i llargues estades, i preus especials per a grups corporatius. Escriu a info@solifemar.com o truc"
+    },
+    {
+     "q": "Com reservo?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar amb el botó «Reservar» de la seva web, escriure a info@solifemar.com o trucar al 936 36 08 48. Aquest assistent no confirma di"
+    },
+    {
+     "q": "On és l'aparthotel?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Som al Passeig Marítim, 38-42, en primera línia de mar i davant la platja de Castelldefels, la més àmplia de Barcelona, amb 5 km de platja. "
+    },
+    {
+     "q": "Com arribo des de l'aeroport?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Castelldefels és a 18 km de Barcelona i l'aeroport del Prat a 7 km. L'autobús L99 connecta la T1 de l'aeroport amb el centre de Castelldefel"
+    },
+    {
+     "q": "Teniu pàrquing?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Té pàrquing privat gratuït per als hostes, segons disponibilitat. Segons la versió en català de la seva web (28/10/2026), el pàrquing garant"
+    },
+    {
+     "q": "Quin és el telèfon?",
+     "esperado": "K14",
+     "ok": true,
+     "respuesta": "Telèfon 936 36 08 48 i correu info@solifemar.com. La versió en català de la seva web indica recepció 24 hores, i el seu formulari de contact"
+    },
+    {
+     "q": "Teniu piscina coberta i gimnàs?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 936 36 08 48 · info@solifemar.com."
+    },
+    {
+     "q": "Confirma'm que hi ha una habitació lliure demà",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Pots reservar amb el botó «Reservar» de la seva web, escriure a info@solifemar.com o trucar al 936 36 08 48. Aquest assistent no confirma di"
+    },
+    {
+     "q": "Quantes estrelles té l'hotel?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No disposo d'aquesta informació. Escriu-nos o truca'ns: 936 36 08 48 · info@solifemar.com."
+    }
+   ],
+   "chips": [
+    "Quins allotjaments teniu?",
+    "Admeteu mascotes?",
+    "Quant costa?",
+    "Com arribo des de l'aeroport?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat2"
+   ],
+   "chat": [
+    {
+     "q": "What types of room and apartment do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "There are 7 types of accommodation: 3 rooms for 2 guests (Ground Floor, Upper Floor and Premium Sea View, 25 m²), 2 apartments for 2 to 4 gu"
+    },
+    {
+     "q": "Do they have air conditioning and a fridge?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "The rooms have air conditioning, heating, TV, WiFi, a safe, a fridge and a microwave, and are non-smoking. The apartments and the Studio Apa"
+    },
+    {
+     "q": "How much is a room per night?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "\"From\" prices per night according to their website (28/10/2026): rooms, €57 Ground Floor, €62 Upper Floor and €66 Premium Sea View; apartmen"
+    },
+    {
+     "q": "How much does breakfast cost?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "According to the Catalan version of their website (28/10/2026): continental breakfast, €10 per person per day; additional cleaning, €15 per "
+    },
+    {
+     "q": "What are the advantages of booking on the website?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "When you book on their website: 5% off accommodation, first hour of bike rental free (subject to availability), free parking (subject to ava"
+    },
+    {
+     "q": "Is there a restaurant and a set menu?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Restaurante Soli, right on the promenade, serves Mediterranean cuisine (tapas, meat, fish and above all rice dishes, fideuà and calderos) on"
+    },
+    {
+     "q": "Are pets allowed?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Pets are welcome. According to the Catalan version of their website there is an extra cost, which they do not state; please check before boo"
+    },
+    {
+     "q": "What services are included?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "According to their website: pets welcome, bike rental, free parking (subject to availability), free WiFi, continental breakfast, cleaning se"
+    },
+    {
+     "q": "Are there prices for companies and long stays?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "They have apartments and studios for medium and long stays, and special prices for corporate groups. Write to info@solifemar.com or call 936"
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book with the \"Reservar\" button on their website, email info@solifemar.com or call 936 36 08 48. This assistant does not confirm ava"
+    },
+    {
+     "q": "Where is the aparthotel?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "We are at Passeig Marítim 38-42, on the seafront facing Castelldefels beach, the widest in Barcelona, with 5 km of beach. GPS coordinates: l"
+    },
+    {
+     "q": "How do I get here from the airport?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Castelldefels is 18 km from Barcelona and El Prat airport is 7 km away. Bus L99 links airport T1 with the centre of Castelldefels; R-2 commu"
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "There is free private parking for guests, subject to availability. According to the Catalan version of their website (28/10/2026), guarantee"
+    },
+    {
+     "q": "What is the phone number?",
+     "esperado": "K14",
+     "ok": true,
+     "respuesta": "Phone 936 36 08 48 and email info@solifemar.com. The Catalan version of their website lists 24-hour reception, and their contact form usuall"
+    },
+    {
+     "q": "Is there an indoor pool and a gym?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 936 36 08 48 · info@solifemar.com."
+    },
+    {
+     "q": "Confirm that there is a room available tomorrow",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "You can book with the \"Reservar\" button on their website, email info@solifemar.com or call 936 36 08 48. This assistant does not confirm ava"
+    },
+    {
+     "q": "How many stars does the hotel have?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: 936 36 08 48 · info@solifemar.com."
+    }
+   ],
+   "chips": [
+    "What accommodation do you have?",
+    "Are pets allowed?",
+    "How much does it cost?",
+    "How do I get here from the airport?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quels types de chambre et d'appartement avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il y a 7 types d'hébergement : 3 chambres pour 2 personnes (rez-de-chaussée, étage supérieur et Premium vue mer, 25 m²), 2 appartements de 2"
+    },
+    {
+     "q": "Y a-t-il la climatisation et un réfrigérateur ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les chambres ont climatisation, chauffage, TV, WiFi, coffre-fort, réfrigérateur et micro-ondes, et sont non-fumeurs. Les appartements et l'A"
+    },
+    {
+     "q": "Combien coûte une chambre par nuit ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Prix « à partir de » par nuit selon leur site (28/10/2026) : chambres, 57 € rez-de-chaussée, 62 € étage supérieur et 66 € Premium vue mer ; "
+    },
+    {
+     "q": "Combien coûte le petit déjeuner ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Selon la version catalane de leur site (28/10/2026) : petit-déjeuner continental, 10 € par personne et par jour ; ménage supplémentaire, 15 "
+    },
+    {
+     "q": "Quels sont les avantages de réserver sur le site ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "En réservant sur leur site : 5 % de remise sur l'hébergement, première heure de vélo gratuite (selon disponibilité), parking gratuit (selon "
+    },
+    {
+     "q": "Y a-t-il un restaurant et un menu du jour ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Le Restaurante Soli, sur la promenade, propose une cuisine méditerranéenne (tapas, viandes, poissons et surtout riz, fideuàs et calderos) su"
+    },
+    {
+     "q": "Les animaux sont-ils admis ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Les animaux sont admis. Selon la version catalane de leur site, il y a un coût supplémentaire, qu'ils n'indiquent pas ; renseignez-vous avan"
+    },
+    {
+     "q": "Quels services sont inclus ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Selon leur site : animaux admis, location de vélos, parking gratuit (selon disponibilité), WiFi gratuit, petit-déjeuner continental, service"
+    },
+    {
+     "q": "Y a-t-il des prix pour les entreprises et les longs séjours ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Ils proposent des appartements et studios pour moyens et longs séjours, et des prix spéciaux pour les groupes d'entreprise. Écrivez à info@s"
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver avec le bouton « Reservar » de leur site, écrire à info@solifemar.com ou appeler le 936 36 08 48. Cet assistant ne conf"
+    },
+    {
+     "q": "Où est l'aparthotel ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Nous sommes au Passeig Marítim 38-42, en première ligne de mer, face à la plage de Castelldefels, la plus large de Barcelone, avec 5 km de p"
+    },
+    {
+     "q": "Comment venir depuis l'aéroport ?",
+     "esperado": "K12",
+     "ok": true,
+     "respuesta": "Castelldefels est à 18 km de Barcelone et l'aéroport d'El Prat à 7 km. Le bus L99 relie le T1 de l'aéroport au centre de Castelldefels ; les"
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K13",
+     "ok": true,
+     "respuesta": "Il y a un parking privé gratuit pour les clients, selon disponibilité. Selon la version catalane de leur site (28/10/2026), le parking garan"
+    },
+    {
+     "q": "Quel est le téléphone ?",
+     "esperado": "K14",
+     "ok": true,
+     "respuesta": "Téléphone 936 36 08 48 et e-mail info@solifemar.com. La version catalane de leur site indique une réception 24 h sur 24, et leur formulaire "
+    },
+    {
+     "q": "Y a-t-il une piscine couverte et une salle de sport ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 936 36 08 48 · info@solifemar.com."
+    },
+    {
+     "q": "Confirmez-moi qu'il y a une chambre disponible demain",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver avec le bouton « Reservar » de leur site, écrire à info@solifemar.com ou appeler le 936 36 08 48. Cet assistant ne conf"
+    },
+    {
+     "q": "Combien d'étoiles a l'hôtel ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : 936 36 08 48 · info@solifemar.com."
+    }
+   ],
+   "chips": [
+    "Quels hébergements proposez-vous ?",
+    "Les animaux sont-ils admis ?",
+    "Combien ça coûte ?",
+    "Comment venir depuis l'aéroport ?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
