@@ -1,0 +1,68 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://www.solifemar.com/",
+ "read_at": "2026-10-28T23:38:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://www.solifemar.com/",
+   "sha256": "766331132ebc157cb54a496bc096052abb33a6f5f62e7c75356efea427ae6d2b",
+   "chars": 3987
+  },
+  {
+   "url": "https://www.solifemar.com/apartamentos/",
+   "sha256": "1ba9169fa11003133add5f6891a05403d3de0abb6c5effde7de3f00a0d8b56ef",
+   "chars": 6041
+  },
+  {
+   "url": "https://www.solifemar.com/ca/serveis/",
+   "sha256": "fb36d0746305b7cde7a3b64033db940e2542811199a430207e1d42acec015ddb",
+   "chars": 2484
+  },
+  {
+   "url": "https://www.solifemar.com/contacto/",
+   "sha256": "5b2007b42bac606b97747c26f6a7271879e4a9b02e99f7d5dabdfbd458430693",
+   "chars": 3353
+  },
+  {
+   "url": "https://www.solifemar.com/ofertas/",
+   "sha256": "2162275d6422034caf64e4893237c533a4a00b95411078ca813f06176f151356",
+   "chars": 1526
+  },
+  {
+   "url": "https://www.solifemar.com/restaurante/",
+   "sha256": "86e93e35dbf920e0893fa44b617ddd043d670d25c39cbe4223524717faed8010",
+   "chars": 3922
+  },
+  {
+   "url": "https://www.solifemar.com/sostenibilidad/",
+   "sha256": "8794132d3fbe425ed8bebf5a53b5aa261bf2bfe6595b6015dc2a72538ea71d66",
+   "chars": 5970
+  }
+ ],
+ "other_pages_read": [
+  "https://www.solifemar.com",
+  "https://www.solifemar.com/?page_id=4535",
+  "https://www.solifemar.com/aviso-legal/",
+  "https://www.solifemar.com/ca/",
+  "https://www.solifemar.com/ca/apartaments/",
+  "https://www.solifemar.com/ca/avis-legal/",
+  "https://www.solifemar.com/ca/contacte/",
+  "https://www.solifemar.com/ca/galeria/",
+  "https://www.solifemar.com/ca/habitacions/",
+  "https://www.solifemar.com/ca/ofertas/",
+  "https://www.solifemar.com/ca/politica-de-galetes/",
+  "https://www.solifemar.com/ca/politica-de-privacitat/",
+  "https://www.solifemar.com/ca/restaurant/",
+  "https://www.solifemar.com/ca/sostenibilitat/",
+  "https://www.solifemar.com/en/",
+  "https://www.solifemar.com/en/apartments/",
+  "https://www.solifemar.com/en/restaurant/",
+  "https://www.solifemar.com/en/rooms/",
+  "https://www.solifemar.com/fr/",
+  "https://www.solifemar.com/galeria/",
+  "https://www.solifemar.com/habitaciones/",
+  "https://www.solifemar.com/politica-de-cookies/",
+  "https://www.solifemar.com/politica-de-privacidad/"
+ ]
+}
