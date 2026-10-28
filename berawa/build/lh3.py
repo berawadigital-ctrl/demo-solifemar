@@ -15,7 +15,7 @@ for modo in ('mobile','desktop'):
     for i in range(3):
         f=tempfile.mktemp(suffix='.json')
         cmd=lh+[url,'--output=json','--output-path='+f,'--quiet','--chrome-flags=--headless=new --no-sandbox','--only-categories=performance,accessibility,best-practices,seo']+(['--preset=desktop'] if modo=='desktop' else [])
-        env=dict(os.environ); 
+        env=dict(os.environ);
         if os.environ.get('CHROME_PATH'): env['CHROME_PATH']=os.environ['CHROME_PATH']
         subprocess.run(cmd,check=True,capture_output=True,env=env)
         j=json.load(open(f));c=j['categories']
